@@ -1,0 +1,98 @@
+// 스터디 카페 매칭
+let matchingDone = [];
+let matchingFail = [];
+var MatchingDataMale3 = [
+  {
+    teamId: 3,
+    sex: "male",
+    university: [2],
+    height: 185,
+    hobby: [1],
+    age: 24,
+    shape: 3,
+    matchingCOndition: 4,
+  },
+  {
+    teamId: 5,
+    sex: "male",
+    university: [1],
+    height: 175,
+    hobby: [1],
+    age: 26,
+    shape: 1,
+    matchingCOndition: 4,
+  },
+  {
+    teamId: 14,
+    sex: "male",
+    university: [1],
+    height: 185,
+    hobby: [1],
+    age: 24,
+    shape: 2,
+    matchingCOndition: 5,
+  },
+  {
+    teamId: 18,
+    sex: "male",
+    university: [1],
+    height: 175,
+    hobby: [1],
+    age: 25,
+    shape: 2,
+    matchingCOndition: 4,
+  },
+  {
+    teamId: 25,
+    sex: "male",
+    university: [1],
+    height: 175,
+    hobby: [1],
+    age: 23,
+    shape: 1,
+    matchingCOndition: 2,
+  },
+  {
+    teamId: 30,
+    sex: "male",
+    university: [1],
+    height: 185,
+    hobby: [1],
+    age: 22,
+    shape: 1,
+    matchingCOndition: 4,
+  },
+
+  /* {
+    teamId: 1,
+    sex: "male",
+    university: [1, 2, 5],
+    height: 170,
+    hobby: [1, 4, 6],
+    age: 23,
+    shape: 1,
+    matchingCOndition: 2,
+  }, */
+];
+var MatchingDataFeMale3 = [
+  {
+    teamId: 7,
+    sex: "female",
+    university: [1],
+    height: 175,
+    hobby: [1],
+    age: 24,
+    shape: 2,
+    matchingCOndition: 4,
+  },
+  {
+    teamId: 11,
+    sex: "female",
+    university: [3],
+    height: 155,
+    hobby: [1],
+    age: 25,
+    shape: 2,
+    matchingCOndition: 3,
+  },
+];

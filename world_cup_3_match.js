@@ -1,0 +1,87 @@
+// 월드컵 3:3 매칭
+
+var MatchingDataMale3 = [
+  {
+    teamId: 1,
+    sex: "male",
+    university: [1],
+    height: 175,
+    hobby: [3],
+    age: 23,
+    shape: 1,
+    matchingCOndition: 3,
+  },
+  {
+    teamId: 4,
+    sex: "male",
+    university: [1],
+    height: 175,
+    hobby: [3],
+    age: 25,
+    shape: 2,
+    matchingCOndition: 3,
+  },
+
+  /* {
+    teamId: 1,
+    sex: "male",
+    university: [1, 2, 5],
+    height: 170,
+    hobby: [1, 4, 6],
+    age: 23,
+    shape: 1,
+    matchingCOndition: 2,
+  }, */
+];
+var MatchingDataFeMale3 = [
+  {
+    teamId: 6,
+    sex: "female",
+    university: [1],
+    height: 165,
+    hobby: [4, 6, 8],
+    age: 25,
+    shape: 1,
+    matchingCOndition: 1,
+  },
+  {
+    teamId: 12,
+    sex: "female",
+    university: [1],
+    height: 165,
+    hobby: [3],
+    age: 21,
+    shape: 1,
+    matchingCOndition: 3,
+  },
+  {
+    teamId: 13,
+    sex: "female",
+    university: [1],
+    height: 155,
+    hobby: [3],
+    age: 20,
+    shape: 1,
+    matchingCOndition: 3,
+  },
+  {
+    teamId: 40,
+    sex: "female",
+    university: [3],
+    height: 165,
+    hobby: [3],
+    age: 22,
+    shape: 2,
+    matchingCOndition: 4,
+  },
+  {
+    teamId: 41,
+    sex: "female",
+    university: [1],
+    height: 165,
+    hobby: [3],
+    age: 24,
+    shape: 2,
+    matchingCOndition: 3,
+  },
+];
