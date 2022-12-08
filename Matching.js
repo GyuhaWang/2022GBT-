@@ -9,6 +9,7 @@
     shape: 3,
     matchingCOndition: 4,
   }*/
+let matchingDone = [];
 for (var female in MatchingDataFeMale3) {
   for (var male in MatchingDataMale3) {
     let maleCheck = false;
@@ -16,7 +17,7 @@ for (var female in MatchingDataFeMale3) {
 
     if (MatchingDataFeMale3[female].matchingCOndition == 1) {
       //우리팀 조건 체크
-      console.log("true");
+
       femaleCheck = condition1(
         MatchingDataFeMale3[female],
         MatchingDataMale3[male]
@@ -52,7 +53,7 @@ for (var female in MatchingDataFeMale3) {
           female: MatchingDataFeMale3[female].teamId,
           male: MatchingDataMale3[male].teamId,
         });
-        newMale = MatchingDataMale3.slice(male + 1);
+        let newMale = MatchingDataMale3.slice(male + 1);
         MatchingDataMale3 = newMale;
         break;
       }
@@ -95,7 +96,7 @@ for (var female in MatchingDataFeMale3) {
           female: MatchingDataFeMale3[female].teamId,
           male: MatchingDataMale3[male].teamId,
         });
-        newMale = MatchingDataMale3.slice(male + 1);
+        let newMale = MatchingDataMale3.slice(male + 1);
         MatchingDataMale3 = newMale;
         break;
       }
@@ -138,7 +139,7 @@ for (var female in MatchingDataFeMale3) {
           female: MatchingDataFeMale3[female].teamId,
           male: MatchingDataMale3[male].teamId,
         });
-        newMale = MatchingDataMale3.slice(male + 1);
+        let newMale = MatchingDataMale3.slice(male + 1);
         MatchingDataMale3 = newMale;
         break;
       }
@@ -181,7 +182,7 @@ for (var female in MatchingDataFeMale3) {
           female: MatchingDataFeMale3[female].teamId,
           male: MatchingDataMale3[male].teamId,
         });
-        newMale = MatchingDataMale3.slice(male + 1);
+        let newMale = MatchingDataMale3.slice(male + 1);
         MatchingDataMale3 = newMale;
         break;
       }
@@ -224,7 +225,7 @@ for (var female in MatchingDataFeMale3) {
           female: MatchingDataFeMale3[female].teamId,
           male: MatchingDataMale3[male].teamId,
         });
-        newMale = MatchingDataMale3.slice(male + 1);
+        let newMale = MatchingDataMale3.slice(male + 1);
         MatchingDataMale3 = newMale;
         break;
       }
